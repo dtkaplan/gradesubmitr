@@ -3,5 +3,7 @@
 export(by_session)
 export(get_submissions)
 export(plot_user_sessions)
+export(score_document)
 export(summarize_MC_item)
+export(summarize_checked_code_item)
 export(summarize_essay_item)

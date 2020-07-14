@@ -40,7 +40,7 @@ summarize_MC_item <- function(events, item_name, fiducial_date = 0.25) {
 
   Student_choices <-
     events %>%
-    group_by(item, login, answer) %>%
+    group_by(document, item, login, answer) %>%
     summarize(n = n()) %>%
     left_join(Item_choices) %>%
     group_by(login) %>%
@@ -73,7 +73,7 @@ summarize_essay_item <- function(Item_events, item_name, fiducial_date = 0.25) {
       difftime(time, fiducial_date, units = "hours")),
       essay_length = nchar(answer)
     ) %>%
-    select(time, login, item, document, answer, essay_length, relative_time)
+    select(login, item, document, answer, essay_length, relative_time)
 
   Essay_lengths <- mosaic::ntiles(Student_events$essay_length,
                                   n=ceiling(pmin(10, sqrt(nrow(Student_events)))),
@@ -90,3 +90,35 @@ summarize_essay_item <- function(Item_events, item_name, fiducial_date = 0.25) {
   )
 
 }
+#' @export
+summarize_checked_code_item <-
+  function(Item_events, item_name, fiducial_date = 0.25) {
+    if(fiducial_date < 0 || fiducial_date > 1)
+      stop("`fiducial_date` must be between zero and one. You have",
+           "`fiducial_date` = ", fiducial_date)
+
+    fiducial_date <- quantile(Item_events$time, fiducial_date)
+
+    # For each user, pick out the latest submission
+    Student_events <- Item_events %>%
+      group_by(login) %>%
+      filter(time == max(time)) %>% # Just the last essay
+      mutate(relative_time = as.numeric(
+        difftime(time, fiducial_date, units = "hours"))
+      ) %>%
+      select(login, item, document, correct, answer, feedback, relative_time) %>%
+      rename(code = answer)
+
+    Feedback_tally <-
+      Student_events %>%
+      mutate(feedback = gsub("  .*$", "", feedback)) %>%
+      group_by(feedback, correct) %>%
+      tally()
+
+    list(
+      by_student = Student_events,
+      overall = Feedback_tally,
+      prompt = ""
+    )
+
+  }
