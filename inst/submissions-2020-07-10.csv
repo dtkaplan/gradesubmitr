@@ -1,0 +1,540 @@
+"Wed Jun 10 12:16:59 2020","David kaplan","6931729319","exercise_result","code_sandbox minimal-example 0.5","code","4","FALSE ::: No genuine code checking is being done.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jun 10 12:16:59 2020","David kaplan","6931729319","exercise_result","code_sandbox minimal-example 0.5","code","4","FALSE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jun 10 12:16:59 2020","David kaplan","6931729319","exercise_result","code_sandbox minimal-example 0.5","code","4","FALSE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:24 2020","Anne kaplan","32756108665","exercise_submitted","just_some_code-C1 submitr-demonstration 0.5","code","4 + 3","NA","label::id::code"
+"Thu Jun 11 16:38:26 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 3","TRUE ::: You're out of line.  Try it again. You get better each time.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:26 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 3","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:26 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 3","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:26 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 3","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:34 2020","Anne kaplan","32756108665","exercise_submitted","just_some_code-C1 submitr-demonstration 0.5","code","4 +","NA","label::id::code"
+"Thu Jun 11 16:38:35 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 +","FALSE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:35 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 +","FALSE ::: The R system can't figure out your command.
+Near line 4, your command<br> seems to have ended prematurely, before it was completed.
+2: 4 + 
+3: 
+  ^","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:35 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 +","FALSE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:35 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 +","FALSE ::: warning","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:35 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 +","FALSE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:54 2020","Anne kaplan","32756108665","exercise_submitted","just_some_code-C1 submitr-demonstration 0.5","code","4 + 7e","NA","label::id::code"
+"Thu Jun 11 16:38:55 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 7e","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:55 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 7e","TRUE ::: The R system can't figure out your command.
+Near line 2, you have a character that's not appropriate, e.g.
+- a name that starts with _
+- There must be some OTHERS...
+1: 
+2: 4 + 7e
+       ^","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:55 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 7e","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:55 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 7e","TRUE ::: warning","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 11 16:38:55 2020","Anne kaplan","32756108665","exercise_result","just_some_code-C1 submitr-demonstration 0.5","code","4 + 7e","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Tue Jun 16 17:13:35 2020","David kaplan","3990119784","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","B ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Tue Jun 16 18:03:08 2020","Anne kaplan","6417083949","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","C ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Tue Jun 16 18:03:12 2020","Anne kaplan","6417083949","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","reset","Which  is a vowel?","label::question::reset"
+"Tue Jun 16 18:03:14 2020","Anne kaplan","6417083949","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","A ::: TRUE","Which  is a vowel?","label::question::answer::correct"
+"Tue Jun 16 18:03:19 2020","Anne kaplan","6417083949","question_submission","ant-feel-magnet-Qinline2 ant-feel-magnet 0.1","question","ל ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Tue Jun 16 18:03:23 2020","Anne kaplan","6417083949","section_skipped","NA ant-feel-magnet 0.1","section","section-question","NA","sectionId"
+"Tue Jun 16 18:03:26 2020","Anne kaplan","6417083949","exercise_submitted","ant-feel-magnet-E1 ant-feel-magnet 0.1","code","""code block""","NA","label::id::code::restore"
+"Tue Jun 16 18:03:27 2020","Anne kaplan","6417083949","exercise_result","ant-feel-magnet-E1 ant-feel-magnet 0.1","code","""code block""","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Tue Jun 16 18:18:17 2020","Betty kaplan","84104952135","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","reset","Which  is a vowel?","label::question::reset"
+"Tue Jun 16 18:18:20 2020","Betty kaplan","84104952135","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","A ::: TRUE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jun 17 05:56:41 2020","David kaplan","2093277097","question_submission","ant-feel-magnet-Qinline2 ant-feel-magnet 0.1","question","B ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jun 17 11:32:45 2020","Anne shiny","2284545889","question_submission","ant-feel-magnet-Qinline1 ant-feel-magnet 0.1","question","C ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jun 17 11:32:50 2020","Anne shiny","2284545889","question_submission","ant-feel-magnet-Qinline2 ant-feel-magnet 0.1","question","ל ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jun 17 11:32:54 2020","Anne shiny","2284545889","section_skipped","NA ant-feel-magnet 0.1","section","section-question","NA","sectionId"
+"Wed Jun 17 11:33:00 2020","Anne shiny","2284545889","exercise_submitted","ant-feel-magnet-E1 ant-feel-magnet 0.1","code","3+8","NA","label::id::code::restore"
+"Wed Jun 17 11:33:01 2020","Anne shiny","2284545889","exercise_result","ant-feel-magnet-E1 ant-feel-magnet 0.1","code","3+8","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jun 17 11:45:35 2020","Anne kaplan","1815760354","question_submission","deer-rise-mug-Qinline2 Assignment-1 0.1","question","Down by 3.5 ::: FALSE","B) What change in unemployment rate corresponds to a year when production is the same as the year before? Unemployment rate will go ...","label::question::answer::correct"
+"Wed Jun 17 11:45:50 2020","Anne kaplan","1815760354","question_submission","snake-choose-kayak-QA1 Assignment-1 0.1","question","Quantity of apple juice. ::: FALSE","What are the numbers labeling the contours?","label::question::answer::correct"
+"Wed Jun 17 11:46:05 2020","Anne kaplan","1815760354","question_submission","snake-choose-kayak-QA1 Assignment-1 0.1","question","reset","What are the numbers labeling the contours?","label::question::reset"
+"Wed Jun 17 11:46:10 2020","Anne kaplan","1815760354","question_submission","snake-choose-kayak-QA1 Assignment-1 0.1","question","Quantity of orange juice. ::: TRUE","What are the numbers labeling the contours?","label::question::answer::correct"
+"Wed Jun 17 11:47:26 2020","Anne kaplan","1815760354","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Wed Jun 17 11:48:26 2020","David kaplan","71597352910","exercise_submitted","finch-feel-knob-sandbox Assignment-1 0.1","code","3  + 4","NA","label::id::code::restore"
+"Wed Jun 17 11:48:28 2020","David kaplan","71597352910","exercise_result","finch-feel-knob-sandbox Assignment-1 0.1","code","3  + 4","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 18 13:59:51 2020","David shiny","69338010693","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 3.5 percent ::: FALSE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 13:59:55 2020","David shiny","69338010693","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","reset","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::reset"
+"Thu Jun 18 13:59:57 2020","David shiny","69338010693","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 14:00:03 2020","David shiny","69338010693","question_submission","deer-rise-mug-Qinline2 Assignment-1 0.1","question","Down by 1.75 ::: FALSE","B) What change in unemployment rate corresponds to a year when production is the same as the year before? Unemployment rate will go ...","label::question::answer::correct"
+"Thu Jun 18 14:00:08 2020","David shiny","69338010693","question_submission","deer-rise-mug-Qinline3 Assignment-1 0.1","question","The yearly percentage increase in production when unemployment is zero. ::: FALSE","C) What is the meaning of the number 3.5 in Okun&#39;s law?","label::question::answer::correct"
+"Thu Jun 18 14:00:28 2020","David shiny","69338010693","question_submission","shark-leave-canoe-Qinline1 Assignment-1 0.1","question","As you age, your maximum heart rate decreases by one beat per minute per year. ::: TRUE","Which of the following is correct?","label::question::answer::correct"
+"Thu Jun 18 14:00:45 2020","David shiny","69338010693","question_submission","shark-leave-canoe-Qinline2 Assignment-1 0.1","question","The female is six years older than the male. ::: TRUE","What can be said about the ages of a male and female with the same MHR?","label::question::answer::correct"
+"Thu Jun 18 14:01:30 2020","David shiny","69338010693","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 14:10:35 2020","Anne shiny","7872147624","question_submission","cow-hang-closet-Qinline2 Assignment-1 0.1","question","The maximum heart rate. ::: FALSE","b) The y-intercept for the graph of this function represents ...","label::question::answer::correct"
+"Thu Jun 18 14:10:42 2020","Anne shiny","7872147624","question_submission","chicken-choose-vase-QA1 Assignment-1 0.1","question","$P = 80 (0.95)^t$ ::: TRUE","If a jacket costs $80 today, how much will it cost in \(t\) days?","label::question::answer::correct"
+"Thu Jun 18 14:10:53 2020","Anne shiny","7872147624","question_submission","beech-sleep-drawer-Qinline1 Assignment-1 0.1","question","-2 ::: FALSE","The integral of the function from x=0 to x = 100 is roughly ...","label::question::answer::correct"
+"Thu Jun 18 14:13:00 2020","Anne shiny","7872147624","exercise_submitted","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4","NA","label::id::code::restore"
+"Thu Jun 18 14:13:01 2020","Anne shiny","7872147624","exercise_result","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 18 14:13:47 2020","Anne shiny","7872147624","exercise_submitted","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4
+slice_plot(f(x) - 1 ~ x, domain(x=c(0,10)))","NA","label::id::code::restore"
+"Thu Jun 18 14:13:48 2020","Anne shiny","7872147624","exercise_result","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4
+slice_plot(f(x) - 1 ~ x, domain(x=c(0,10)))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 18 14:15:27 2020","Anne shiny","7872147624","exercise_submitted","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4
+slice_plot(f(x) - 1 ~ x, domain(x=c(1.7,10)))","NA","label::id::code::restore"
+"Thu Jun 18 14:15:28 2020","Anne shiny","7872147624","exercise_result","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4
+slice_plot(f(x) - 1 ~ x, domain(x=c(1.7,10)))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 18 14:15:48 2020","Anne shiny","7872147624","exercise_submitted","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4
+slice_plot(f(x) - 1 ~ x, domain(x=c(1.7,2.3)))","NA","label::id::code::restore"
+"Thu Jun 18 14:15:49 2020","Anne shiny","7872147624","exercise_result","finch-feel-knob-sandbox Assignment-1 0.1","code","f <- function(x) 1/x + 1/x^2 + 1/ x^3 + 1 / x^4
+slice_plot(f(x) - 1 ~ x, domain(x=c(1.7,2.3)))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jun 18 14:16:34 2020","Anne shiny","7872147624","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 14:31:07 2020","Anne shiny","7872147624","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 14:32:05 2020","Anne shiny","7872147624","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 14:46:20 2020","David shiny","9810612123","question_submission","deer-rise-mug-Qinline3 Assignment-1 0.1","question","The yearly percentage increase in production when unemployment does not change from the previous year. ::: TRUE","C) What is the meaning of the number 3.5 in Okun&#39;s law?","label::question::answer::correct"
+"Thu Jun 18 14:47:26 2020","David shiny","9810612123","question_submission","shark-leave-canoe-Qinline1 Assignment-1 0.1","question","As you age, your maximum heart rate decreases by one beat per minute per year. ::: TRUE","Which of the following is correct?","label::question::answer::correct"
+"Thu Jun 18 14:48:16 2020","David shiny","9810612123","question_submission","shark-leave-canoe-Qinline2 Assignment-1 0.1","question","The female is six years older than the male. ::: TRUE","What can be said about the ages of a male and female with the same MHR?","label::question::answer::correct"
+"Thu Jun 18 14:49:00 2020","David shiny","9810612123","question_submission","horse-cost-blanket-Qinline3 Assignment-1 0.1","question","Falls rapidly for small $x$, smoothly decreasing in slope as $x$ gets bigger. ::: TRUE","Which of these statements is correct about the shape of the graph?","label::question::answer::correct"
+"Thu Jun 18 14:55:47 2020","David shiny","9810612123","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:37:14 2020","David shiny","4739167353","question_submission","chicken-choose-vase-QA1 Assignment-1 0.1","question","$P = 80 - 4t$ ::: FALSE","If a jacket costs $80 today, how much will it cost in \(t\) days?","label::question::answer::correct"
+"Thu Jun 18 15:37:17 2020","David shiny","4739167353","question_submission","chicken-choose-vase-QA1 Assignment-1 0.1","question","reset","If a jacket costs $80 today, how much will it cost in \(t\) days?","label::question::reset"
+"Thu Jun 18 15:37:52 2020","David shiny","4739167353","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:41:25 2020","David shiny","4739167353","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:41:40 2020","Anne shiny","3279525561","question_submission","chicken-choose-vase-QA1 Assignment-1 0.1","question","$P = 80 - 5t$ ::: FALSE","If a jacket costs $80 today, how much will it cost in \(t\) days?","label::question::answer::correct"
+"Thu Jun 18 15:48:56 2020","Anne shiny","3279525561","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:49:47 2020","David shiny","9912746273","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 15:50:36 2020","David shiny","9912746273","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 15:50:36 2020","David shiny","9912746273","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 3.5 percent ::: FALSE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 15:50:39 2020","David shiny","9912746273","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:50:52 2020","Unauthenticated David shiny","4225339118","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:51:02 2020","David shiny","8441366386","question_submission","deer-rise-mug-Qinline2 Assignment-1 0.1","question","Down by 3.5 ::: FALSE","B) What change in unemployment rate corresponds to a year when production is the same as the year before? Unemployment rate will go ...","label::question::answer::correct"
+"Thu Jun 18 15:51:08 2020","David shiny","8441366386","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 15:51:25 2020","David shiny","8441366386","question_submission","deer-rise-mug-Qinline3 Assignment-1 0.1","question","The yearly percentage increase in production when unemployment does not change from the previous year. ::: TRUE","C) What is the meaning of the number 3.5 in Okun&#39;s law?","label::question::answer::correct"
+"Thu Jun 18 15:51:27 2020","David shiny","8441366386","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 15:56:57 2020","David shiny","8441366386","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 16:10:31 2020","David shiny","8441366386","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 21:35:29 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go up by 3.5 percent ::: FALSE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 21:35:32 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","reset","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::reset"
+"Thu Jun 18 21:35:36 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go up by 2.5 percent ::: FALSE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 21:35:40 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","reset","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::reset"
+"Thu Jun 18 21:35:43 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 3.5 percent ::: FALSE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 21:35:46 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","reset","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::reset"
+"Thu Jun 18 21:35:50 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 21:36:52 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline2 Assignment-1 0.1","question","Up by 1.75 ::: TRUE","B) What change in unemployment rate corresponds to a year when production is the same as the year before? Unemployment rate will go ...","label::question::answer::correct"
+"Thu Jun 18 21:37:03 2020","Betty shiny","2331778778","question_submission","deer-rise-mug-Qinline3 Assignment-1 0.1","question","The yearly percentage increase in production when unemployment does not change from the previous year. ::: TRUE","C) What is the meaning of the number 3.5 in Okun&#39;s law?","label::question::answer::correct"
+"Thu Jun 18 21:37:36 2020","Betty shiny","2331778778","question_submission","shark-leave-canoe-Qinline1 Assignment-1 0.1","question","As you age, your maximum heart rate decreases by one beat per minute per year. ::: TRUE","Which of the following is correct?","label::question::answer::correct"
+"Thu Jun 18 21:45:54 2020","Betty shiny","2331778778","question_submission","shark-leave-canoe-Qinline2 Assignment-1 0.1","question","The female is six years older than the male. ::: TRUE","What can be said about the ages of a male and female with the same MHR?","label::question::answer::correct"
+"Thu Jun 18 21:49:17 2020","Betty shiny","2331778778","question_submission","horse-cost-blanket-Qinline1 Assignment-1 0.1","question","2.4 ::: FALSE","At what value of \(t\) does the function reach a value of \(25\)?","label::question::answer::correct"
+"Thu Jun 18 21:49:42 2020","Betty shiny","2331778778","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 21:51:13 2020","David shiny","531104110259","question_submission","deer-rise-mug-Qinline2 Assignment-1 0.1","question","Down by 3.5 ::: FALSE","B) What change in unemployment rate corresponds to a year when production is the same as the year before? Unemployment rate will go ...","label::question::answer::correct"
+"Thu Jun 18 21:51:15 2020","David shiny","531104110259","question_submission","deer-rise-mug-Qinline1 Assignment-1 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Thu Jun 18 21:52:16 2020","David shiny","531104110259","question_submission","horse-cost-blanket-Qinline1 Assignment-1 0.1","question","reset","At what value of \(t\) does the function reach a value of \(25\)?","label::question::reset"
+"Thu Jun 18 21:52:18 2020","David shiny","531104110259","question_submission","horse-cost-blanket-Qinline1 Assignment-1 0.1","question","1.25 ::: TRUE","At what value of \(t\) does the function reach a value of \(25\)?","label::question::answer::correct"
+"Thu Jun 18 21:52:38 2020","David shiny","531104110259","question_submission","horse-cost-blanket-Qinline2 Assignment-1 0.1","question","1.75 ::: TRUE","What is the half-life of the exponential?","label::question::answer::correct"
+"Thu Jun 18 21:53:11 2020","David shiny","531104110259","question_submission","horse-cost-blanket-Qinline3 Assignment-1 0.1","question","Falls rapidly for small $x$, smoothly decreasing in slope as $x$ gets bigger. ::: TRUE","Which of these statements is correct about the shape of the graph?","label::question::answer::correct"
+"Thu Jun 18 21:53:50 2020","David shiny","531104110259","question_submission","chicken-choose-vase-QA1 Assignment-1 0.1","question","$P = 80 (0.95)^t$ ::: TRUE","If a jacket costs $80 today, how much will it cost in \(t\) days?","label::question::answer::correct"
+"Thu Jun 18 21:54:42 2020","David shiny","531104110259","question_submission","wolf-lead-kitchen-Qinline1 Assignment-1 0.1","question","10.00 ::: TRUE","A) In the new form, \(P_0\) is which of the following?","label::question::answer::correct"
+"Thu Jun 18 22:03:37 2020","David shiny","531104110259","question_submission","wolf-lead-kitchen-Qinline2 Assignment-1 0.1","question","0.531 ::: TRUE","B) In the new form, \(k\) is which of the following?","label::question::answer::correct"
+"Thu Jun 18 22:09:45 2020","David shiny","531104110259","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 22:11:24 2020","David shiny","531104110259","question_submission","eagle-speak-pan-Qinline1 Assignment-1 0.1","question","1.213 ::: FALSE","A) What is the value of \(a\)?","label::question::answer::correct"
+"Thu Jun 18 22:11:27 2020","David shiny","531104110259","question_submission","eagle-speak-pan-Qinline1 Assignment-1 0.1","question","reset","A) What is the value of \(a\)?","label::question::reset"
+"Thu Jun 18 22:11:30 2020","David shiny","531104110259","question_submission","eagle-speak-pan-Qinline1 Assignment-1 0.1","question","0.607 ::: TRUE","A) What is the value of \(a\)?","label::question::answer::correct"
+"Thu Jun 18 22:11:38 2020","David shiny","531104110259","question_submission","eagle-speak-pan-Qinline2 Assignment-1 0.1","question","2.000 ::: TRUE","B) What is the value of \(P_0\)?","label::question::answer::correct"
+"Thu Jun 18 22:26:58 2020","David shiny","531104110259","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:51:27 2020","Anne shiny","6275674424","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:51:29 2020","Anne shiny","6275674424","question_submission","giraffe-catch-pot-Qinline1 Assignment-1 0.1","question","8 hrs ::: FALSE","Approximately how long does it take for the amount of nicotine in the blood to be reduced to 0.04 mg?","label::question::answer::correct"
+"Thu Jun 18 23:51:35 2020","Anne shiny","6275674424","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:51:48 2020","Anne shiny","6275674424","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:52:20 2020","Anne shiny","6275674424","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:52:34 2020","Anne shiny","6275674424","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:52:45 2020","Anne shiny","6275674424","session_start","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Thu Jun 18 23:54:18 2020","Anne shiny","6275674424","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Fri Jun 19 00:07:37 2020","Anne shiny","6275674424","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Fri Jun 19 00:07:51 2020","Anne shiny","6275674424","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Fri Jun 19 00:08:04 2020","Anne shiny","6275674424","session_stop","NA Assignment-1 0.1","handled field",NA,"NA",NA
+"Sat Jul  4 08:05:15 2020","David kaplan","9668993457","question_submission","deer-rise-mug-Qinline1 starting_with_R 0.1","question","Go down by 2.5 percent ::: TRUE","A) What is the effect on national production of a year when unemployment rises from 5% to 8%? National production will ...","label::question::answer::correct"
+"Sat Jul  4 08:05:23 2020","David kaplan","9668993457","question_submission","deer-rise-mug-Qinline2 starting_with_R 0.1","question","Up by 3.5 ::: FALSE","B) What change in unemployment rate corresponds to a year when production is the same as the year before? Unemployment rate will go ...","label::question::answer::correct"
+"Sat Jul  4 08:05:28 2020","David kaplan","9668993457","question_submission","deer-rise-mug-Qinline3 starting_with_R 0.1","question","The unemployment rate when production does not grow. ::: FALSE","C) What is the meaning of the number 3.5 in Okun&#39;s law?","label::question::answer::correct"
+"Sat Jul  4 09:39:16 2020","Anne kaplan","5675789689","exercise_submitted","orientation-1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Sat Jul  4 09:39:18 2020","Anne kaplan","5675789689","exercise_result","orientation-1 Orientation 0.1","code","sqrt(47)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:39:37 2020","Anne kaplan","5675789689","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Sat Jul  4 09:39:38 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: We asked for the square root of 477. You need to do some more editing.  Try it again. I have a good feeling about this.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:39:38 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:39:38 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:39:38 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:40:09 2020","Anne kaplan","5675789689","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(477)","NA","label::id::code::restore"
+"Sat Jul  4 09:40:10 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: Magnificent!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:40:10 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:40:10 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:40:10 2020","Anne kaplan","5675789689","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Sat Jul  4 09:40:17 2020","Anne kaplan","5675789689","section_skipped","NA Orientation 0.1","section","section-code-boxes","NA","sectionId"
+"Sat Jul  4 09:40:20 2020","Anne kaplan","5675789689","question_submission","document_25268ee-Qinline1 Orientation 0.1","question","B ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Sat Jul  4 09:40:35 2020","Anne kaplan","5675789689","session_stop","NA Orientation 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 16:12:32 2020","Anne shiny","1176619274","section_skipped","NA Orientation 0.1","section","section-welcome","NA","sectionId"
+"Wed Jul  8 16:12:35 2020","Anne shiny","1176619274","section_skipped","NA Orientation 0.1","section","section-explanatory-material","NA","sectionId"
+"Wed Jul  8 16:12:37 2020","Anne shiny","1176619274","exercise_submitted","orientation-1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Wed Jul  8 16:12:38 2020","Anne shiny","1176619274","exercise_result","orientation-1 Orientation 0.1","code","sqrt(47)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:12:42 2020","Anne shiny","1176619274","exercise_submitted","orientation-E1 Orientation 0.1","code","sqt(47)","NA","label::id::code::restore"
+"Wed Jul  8 16:12:43 2020","Anne shiny","1176619274","exercise_result","orientation-E1 Orientation 0.1","code","sqt(47)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:12:54 2020","Anne shiny","1176619274","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Wed Jul  8 16:12:55 2020","Anne shiny","1176619274","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:09:06 2020","Betty kaplan","7791612783","section_skipped","NA Orientation 0.1","section","section-welcome","NA","sectionId"
+"Wed Jul  8 10:09:07 2020","Betty kaplan","7791612783","section_skipped","NA Orientation 0.1","section","section-explanatory-material","NA","sectionId"
+"Wed Jul  8 10:09:12 2020","Betty kaplan","7791612783","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Wed Jul  8 10:09:13 2020","Betty kaplan","7791612783","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: We asked for the square root of 477. You need to do some more editing.  Try it again. I have a good feeling about this.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:09:13 2020","Betty kaplan","7791612783","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:09:13 2020","Betty kaplan","7791612783","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:09:13 2020","Betty kaplan","7791612783","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:21 2020","David kaplan","2128182127","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Wed Jul  8 10:13:22 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: We asked for the square root of 477. You need to do some more editing.  But no need to fret, try it again.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:22 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:22 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:22 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:31 2020","David kaplan","2128182127","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(477)","NA","label::id::code::restore"
+"Wed Jul  8 10:13:32 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: Amazing!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:32 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:32 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:13:32 2020","David kaplan","2128182127","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 10:21:53 2020","David kaplan","72381880910","section_skipped","NA Orientation 0.1","section","section-welcome","NA","sectionId"
+"Wed Jul  8 10:21:56 2020","David kaplan","72381880910","section_skipped","NA Orientation 0.1","section","section-explanatory-material","NA","sectionId"
+"Wed Jul  8 10:21:57 2020","David kaplan","72381880910","section_skipped","NA Orientation 0.1","section","section-code-boxes","NA","sectionId"
+"Wed Jul  8 10:22:00 2020","David kaplan","72381880910","question_submission","document_25268ee-Qinline1 Orientation 0.1","question","B ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jul  8 16:31:44 2020","Anne shiny","6763837251","section_skipped","NA Orientation 0.1","section","section-welcome","NA","sectionId"
+"Wed Jul  8 16:31:47 2020","Anne shiny","6763837251","section_skipped","NA Orientation 0.1","section","section-explanatory-material","NA","sectionId"
+"Wed Jul  8 16:31:50 2020","Anne shiny","6763837251","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Wed Jul  8 16:31:51 2020","Anne shiny","6763837251","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: We asked for the square root of 477. You need to do some more editing.  Try it again. I have a good feeling about this.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:31:51 2020","Anne shiny","6763837251","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:31:51 2020","Anne shiny","6763837251","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:31:51 2020","Anne shiny","6763837251","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(47)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:31:56 2020","Anne shiny","6763837251","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(477)","NA","label::id::code::restore"
+"Wed Jul  8 16:31:58 2020","Anne shiny","6763837251","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 16:32:17 2020","Anne shiny","6763837251","session_stop","NA Orientation 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 17:04:08 2020","Anne shiny","34859984102","section_skipped","NA Syntax 0.1","section","section-syntax","NA","sectionId"
+"Wed Jul  8 17:04:20 2020","Anne shiny","34859984102","exercise_submitted","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","NA","label::id::code::restore"
+"Wed Jul  8 17:04:21 2020","Anne shiny","34859984102","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:04:27 2020","Anne shiny","34859984102","exercise_submitted","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","NA","label::id::code::restore"
+"Wed Jul  8 17:04:28 2020","Anne shiny","34859984102","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","TRUE ::: Very good!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:04:28 2020","Anne shiny","34859984102","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:04:28 2020","Anne shiny","34859984102","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:04:28 2020","Anne shiny","34859984102","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5 * 6 - 3/2","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:04:57 2020","Anne shiny","34859984102","exercise_submitted","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","NA","label::id::code::restore"
+"Wed Jul  8 17:04:58 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:01 2020","Anne shiny","34859984102","exercise_submitted","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","NA","label::id::code::restore"
+"Wed Jul  8 17:05:02 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","TRUE ::: Smashing!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:02 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:02 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:02 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature + volume","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:08 2020","Anne shiny","34859984102","exercise_submitted","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature & volume","NA","label::id::code::restore"
+"Wed Jul  8 17:05:10 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature & volume","TRUE ::: :)","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:10 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature & volume","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:10 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature & volume","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:10 2020","Anne shiny","34859984102","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure ~ temperature & volume","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:05:32 2020","Anne shiny","34859984102","session_stop","NA Syntax 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 11:17:14 2020","David kaplan","8665038351","section_skipped","NA MMAC-Ch-1 0.1","section","section-mmac-chapter-1","NA","sectionId"
+"Wed Jul  8 11:17:28 2020","David kaplan","8665038351","exercise_submitted","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi(9.852x3 - 10.375x) / 9 pi 2 + 27 x ~ x
+)","NA","label::id::code::restore"
+"Wed Jul  8 11:17:29 2020","David kaplan","8665038351","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi(9.852x3 - 10.375x) / 9 pi 2 + 27 x ~ x
+)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 11:18:05 2020","David kaplan","8665038351","exercise_submitted","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 pi)^2 + 27 * x) ~ x
+)","NA","label::id::code::restore"
+"Wed Jul  8 11:18:06 2020","David kaplan","8665038351","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 pi)^2 + 27 * x) ~ x
+)","TRUE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 11:18:21 2020","David kaplan","8665038351","exercise_submitted","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 * pi)^2 + 27 * x) ~ x
+)","NA","label::id::code::restore"
+"Wed Jul  8 11:18:22 2020","David kaplan","8665038351","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 * pi)^2 + 27 * x) ~ x
+)","TRUE ::: You should be proud.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 11:18:22 2020","David kaplan","8665038351","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 * pi)^2 + 27 * x) ~ x
+)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 11:18:22 2020","David kaplan","8665038351","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 * pi)^2 + 27 * x) ~ x
+)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 11:18:22 2020","David kaplan","8665038351","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) /( (9 * pi)^2 + 27 * x) ~ x
+)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:33:49 2020","Anne shiny","13772231070","section_skipped","NA MMAC-Ch-1 0.1","section","section-zeros-in-contour-plots","NA","sectionId"
+"Wed Jul  8 17:33:50 2020","Anne shiny","13772231070","section_skipped","NA MMAC-Ch-1 0.1","section","section-exponentials-etc.","NA","sectionId"
+"Wed Jul  8 17:33:55 2020","Anne shiny","13772231070","exercise_submitted","R-syntax-sandbox1 MMAC-Ch-1 0.1","code","exp(2)
+sin(3)
+runif(1)
+date()","NA","label::id::code::restore"
+"Wed Jul  8 17:33:56 2020","Anne shiny","13772231070","exercise_result","R-syntax-sandbox1 MMAC-Ch-1 0.1","code","exp(2)
+sin(3)
+runif(1)
+date()","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:33:58 2020","Anne shiny","13772231070","exercise_submitted","R-syntax-sandbox1 MMAC-Ch-1 0.1","code","exp(2)
+sin(3)
+runif(1)
+date()","NA","label::id::code::restore"
+"Wed Jul  8 17:33:59 2020","Anne shiny","13772231070","exercise_result","R-syntax-sandbox1 MMAC-Ch-1 0.1","code","exp(2)
+sin(3)
+runif(1)
+date()","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:34:15 2020","Anne shiny","13772231070","session_start","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 17:34:26 2020","David shiny","49901310656","section_skipped","NA MMAC-Ch-1 0.1","section","section-mmac-chapter-1","NA","sectionId"
+"Wed Jul  8 17:34:33 2020","David shiny","49901310656","exercise_submitted","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","NA","label::id::code::restore"
+"Wed Jul  8 17:34:35 2020","David shiny","49901310656","exercise_result","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:34:39 2020","David shiny","49901310656","exercise_submitted","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","NA","label::id::code::restore"
+"Wed Jul  8 17:34:40 2020","David shiny","49901310656","exercise_result","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","TRUE ::: Terrific!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:34:40 2020","David shiny","49901310656","exercise_result","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:34:40 2020","David shiny","49901310656","exercise_result","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:34:40 2020","David shiny","49901310656","exercise_result","child-leave-coat-E1 MMAC-Ch-1 0.1","code","# For debugging only
+drag <- makeFun(1.33 * lift / 10 ~ lift)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 17:35:44 2020","David shiny","49901310656","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 17:36:11 2020","David shiny","49901310656","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 22:14:49 2020","David shiny","9706843986","section_skipped","NA Orientation 0.1","section","section-welcome","NA","sectionId"
+"Wed Jul  8 22:15:21 2020","David shiny","9706843986","section_skipped","NA Orientation 0.1","section","section-explanatory-material","NA","sectionId"
+"Wed Jul  8 22:15:30 2020","David shiny","9706843986","exercise_submitted","orientation-1 Orientation 0.1","code","sqrt(47)","NA","label::id::code::restore"
+"Wed Jul  8 22:15:31 2020","David shiny","9706843986","exercise_result","orientation-1 Orientation 0.1","code","sqrt(47)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:15:48 2020","David shiny","9706843986","exercise_submitted","orientation-E1 Orientation 0.1","code","sqt(477)","NA","label::id::code::restore"
+"Wed Jul  8 22:15:49 2020","David shiny","9706843986","exercise_result","orientation-E1 Orientation 0.1","code","sqt(477)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:15:54 2020","David shiny","9706843986","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(477)","NA","label::id::code::restore"
+"Wed Jul  8 22:15:55 2020","David shiny","9706843986","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:15:58 2020","David shiny","9706843986","exercise_submitted","orientation-E1 Orientation 0.1","code","sqrt(477)","NA","label::id::code::restore"
+"Wed Jul  8 22:15:58 2020","David shiny","9706843986","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: Very good!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:15:58 2020","David shiny","9706843986","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:15:58 2020","David shiny","9706843986","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:15:58 2020","David shiny","9706843986","exercise_result","orientation-E1 Orientation 0.1","code","sqrt(477)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:16:01 2020","David shiny","9706843986","section_skipped","NA Orientation 0.1","section","section-code-boxes","NA","sectionId"
+"Wed Jul  8 22:16:12 2020","David shiny","9706843986","question_submission","document_25268ee-Qinline1 Orientation 0.1","question","C ::: FALSE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jul  8 22:16:16 2020","David shiny","9706843986","question_submission","document_25268ee-Qinline1 Orientation 0.1","question","reset","Which  is a vowel?","label::question::reset"
+"Wed Jul  8 22:16:18 2020","David shiny","9706843986","question_submission","document_25268ee-Qinline1 Orientation 0.1","question","A ::: TRUE","Which  is a vowel?","label::question::answer::correct"
+"Wed Jul  8 22:16:21 2020","David shiny","9706843986","section_skipped","NA Orientation 0.1","section","section-multiple-choice-questions","NA","sectionId"
+"Wed Jul  8 22:16:37 2020","David shiny","9706843986","question_submission","orientation-Essay1 Orientation 0.1","question","Yes, mathematica ::: FALSE","Have you used computers before in a math class? If so, say what language was used.","label::question::answer::correct"
+"Wed Jul  8 22:16:44 2020","David shiny","9706843986","section_skipped","NA Orientation 0.1","section","section-text-answers","NA","sectionId"
+"Wed Jul  8 22:17:15 2020","David shiny","9706843986","section_skipped","NA Orientation 0.1","section","section-text-answers","NA","sectionId"
+"Wed Jul  8 22:24:54 2020","David shiny","9706843986","session_stop","NA Orientation 0.1","handled field",NA,"NA",NA
+"Wed Jul  8 22:25:11 2020","David shiny","01942510127","section_skipped","NA Syntax 0.1","section","section-syntax","NA","sectionId"
+"Wed Jul  8 22:26:17 2020","David shiny","01942510127","exercise_submitted","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","NA","label::id::code::restore"
+"Wed Jul  8 22:26:19 2020","David shiny","01942510127","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:24 2020","David shiny","01942510127","exercise_submitted","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","NA","label::id::code::restore"
+"Wed Jul  8 22:26:24 2020","David shiny","01942510127","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","TRUE ::: :)","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:24 2020","David shiny","01942510127","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:24 2020","David shiny","01942510127","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:24 2020","David shiny","01942510127","exercise_result","bee-write-closet-E1 Syntax 0.1","code","5*6-3/2","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:40 2020","David shiny","01942510127","exercise_submitted","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","NA","label::id::code::restore"
+"Wed Jul  8 22:26:41 2020","David shiny","01942510127","exercise_result","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:44 2020","David shiny","01942510127","exercise_submitted","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","NA","label::id::code::restore"
+"Wed Jul  8 22:26:45 2020","David shiny","01942510127","exercise_result","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","TRUE ::: Amazing!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:45 2020","David shiny","01942510127","exercise_result","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:45 2020","David shiny","01942510127","exercise_result","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:45 2020","David shiny","01942510127","exercise_result","bee-write-closet2-E1 Syntax 0.1","code","(5*6-3)/2","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:26:56 2020","David shiny","01942510127","exercise_submitted","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","NA","label::id::code::restore"
+"Wed Jul  8 22:26:57 2020","David shiny","01942510127","exercise_result","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:27:00 2020","David shiny","01942510127","exercise_submitted","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","NA","label::id::code::restore"
+"Wed Jul  8 22:27:00 2020","David shiny","01942510127","exercise_result","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","TRUE ::: Smashing!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:27:00 2020","David shiny","01942510127","exercise_result","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:27:00 2020","David shiny","01942510127","exercise_result","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:27:00 2020","David shiny","01942510127","exercise_result","bee-write-closet3-E1 Syntax 0.1","code","5*(6-3)/2","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:27:25 2020","David shiny","01942510127","exercise_submitted","bee-write-closet4-E1 Syntax 0.1","code","pi","NA","label::id::code::restore"
+"Wed Jul  8 22:27:26 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","pi","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:28:04 2020","David shiny","01942510127","exercise_submitted","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","NA","label::id::code::restore"
+"Wed Jul  8 22:28:05 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:28:19 2020","David shiny","01942510127","exercise_submitted","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","NA","label::id::code::restore"
+"Wed Jul  8 22:28:20 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:31:36 2020","David shiny","01942510127","exercise_submitted","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","NA","label::id::code::restore"
+"Wed Jul  8 22:31:37 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","TRUE ::: Excellent!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:31:37 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:31:37 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:31:37 2020","David shiny","01942510127","exercise_result","bee-write-closet4-E1 Syntax 0.1","code","abs((3*6-pi^2)/(4*5+7))","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:31:56 2020","David shiny","01942510127","exercise_submitted","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","NA","label::id::code::restore"
+"Wed Jul  8 22:31:56 2020","David shiny","01942510127","exercise_result","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:31:59 2020","David shiny","01942510127","exercise_submitted","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","NA","label::id::code::restore"
+"Wed Jul  8 22:32:00 2020","David shiny","01942510127","exercise_result","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","TRUE ::: You should be proud.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:00 2020","David shiny","01942510127","exercise_result","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:00 2020","David shiny","01942510127","exercise_result","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:00 2020","David shiny","01942510127","exercise_result","bee-write-closet5-E1 Syntax 0.1","code","abs(pi^2-4^3/2)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:14 2020","David shiny","01942510127","exercise_submitted","bee-write-closet6-E1 Syntax 0.1","code","(5^2-4^2)/2","NA","label::id::code::restore"
+"Wed Jul  8 22:32:15 2020","David shiny","01942510127","exercise_result","bee-write-closet6-E1 Syntax 0.1","code","(5^2-4^2)/2","TRUE ::: Magnificent!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:15 2020","David shiny","01942510127","exercise_result","bee-write-closet6-E1 Syntax 0.1","code","(5^2-4^2)/2","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:15 2020","David shiny","01942510127","exercise_result","bee-write-closet6-E1 Syntax 0.1","code","(5^2-4^2)/2","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:15 2020","David shiny","01942510127","exercise_result","bee-write-closet6-E1 Syntax 0.1","code","(5^2-4^2)/2","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:26 2020","David shiny","01942510127","exercise_submitted","panda-dig-book-E1 Syntax 0.1","code","e^1","NA","label::id::code::restore"
+"Wed Jul  8 22:32:27 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","e^1","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:44 2020","David shiny","01942510127","exercise_submitted","panda-dig-book-E1 Syntax 0.1","code","exp(1)","NA","label::id::code::restore"
+"Wed Jul  8 22:32:45 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: That's marvelous!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:45 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:45 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:45 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:32:55 2020","David shiny","01942510127","exercise_submitted","panda-dig-book-E1 Syntax 0.1","code","e^1","NA","label::id::code::restore"
+"Wed Jul  8 22:32:56 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","e^1","TRUE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:33:05 2020","David shiny","01942510127","exercise_submitted","panda-dig-book-E1 Syntax 0.1","code","exp(1)","NA","label::id::code::restore"
+"Wed Jul  8 22:33:06 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: Someone knows what they're doing :)","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:33:06 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:33:06 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:33:06 2020","David shiny","01942510127","exercise_result","panda-dig-book-E1 Syntax 0.1","code","exp(1)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:38:25 2020","David shiny","01942510127","exercise_submitted","R-syntax-sandbox1 Syntax 0.1","code","abs(","NA","label::id::code::restore"
+"Wed Jul  8 22:38:26 2020","David shiny","01942510127","exercise_result","R-syntax-sandbox1 Syntax 0.1","code","abs(","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:40:07 2020","David shiny","01942510127","question_submission","R-syntax-TF1 Syntax 0.1","question","False ::: TRUE","<strong>Question 1</strong>: Is <code>((1 + 2) / (3 + 4)</code> a complete expression?","label::question::answer::correct"
+"Wed Jul  8 22:40:17 2020","David shiny","01942510127","exercise_submitted","R-syntax-sandbox1 Syntax 0.1","code","3e6","NA","label::id::code::restore"
+"Wed Jul  8 22:40:18 2020","David shiny","01942510127","exercise_result","R-syntax-sandbox1 Syntax 0.1","code","3e6","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:40:22 2020","David shiny","01942510127","question_submission","R-syntax-TF2 Syntax 0.1","question","True ::: TRUE","<strong>Question 2</strong>: Is <code>3e6</code> a complete expression?","label::question::answer::correct"
+"Wed Jul  8 22:40:27 2020","David shiny","01942510127","question_submission","R-syntax-TF3 Syntax 0.1","question","False ::: TRUE","<strong>Question 3</strong>: Is <code>sqrt(24))</code> a complete expression?","label::question::answer::correct"
+"Wed Jul  8 22:40:31 2020","David shiny","01942510127","question_submission","R-syntax-TF4 Syntax 0.1","question","False ::: TRUE","<strong>Question 1</strong>: Is <code>5 (3 + 4)</code> a complete expression?","label::question::answer::correct"
+"Wed Jul  8 22:42:01 2020","David shiny","01942510127","question_submission","crocodile-drive-pants-QA1 Syntax 0.1","question","`c` ::: TRUE","Which of these are legitimate names in R? (Check all that apply.)","label::question::answer::correct"
+"Wed Jul  8 22:42:01 2020","David shiny","01942510127","question_submission","crocodile-drive-pants-QA1 Syntax 0.1","question","`c2` ::: TRUE","Which of these are legitimate names in R? (Check all that apply.)","label::question::answer::correct"
+"Wed Jul  8 22:42:01 2020","David shiny","01942510127","question_submission","crocodile-drive-pants-QA1 Syntax 0.1","question","`c_squared` ::: TRUE","Which of these are legitimate names in R? (Check all that apply.)","label::question::answer::correct"
+"Wed Jul  8 22:42:01 2020","David shiny","01942510127","question_submission","crocodile-drive-pants-QA1 Syntax 0.1","question","`c_2` ::: TRUE","Which of these are legitimate names in R? (Check all that apply.)","label::question::answer::correct"
+"Wed Jul  8 22:42:01 2020","David shiny","01942510127","question_submission","crocodile-drive-pants-QA1 Syntax 0.1","question","`Orville_and_Wilbur_Wright` ::: TRUE","Which of these are legitimate names in R? (Check all that apply.)","label::question::answer::correct"
+"Wed Jul  8 22:42:24 2020","David shiny","01942510127","question_submission","cow-talk-piano-QA1 Syntax 0.1","question","To store the number 3 under the name `count`. ::: TRUE","A) What is the purpose of the first expression, <code>count &lt;- 3</code>?","label::question::answer::correct"
+"Wed Jul  8 22:42:34 2020","David shiny","01942510127","question_submission","cow-talk-piano-QA2 Syntax 0.1","question","It increments `count` by 1. ::: TRUE","B) What is the purpose of the second expression, <code>count &lt;- count + 1</code>?","label::question::answer::correct"
+"Wed Jul  8 22:42:39 2020","David shiny","01942510127","question_submission","cow-talk-piano-QA3 Syntax 0.1","question","To display the value currently stored under the name `count`. ::: TRUE","C) What is the purpose of the last expression, <code>count</code>?","label::question::answer::correct"
+"Wed Jul  8 22:42:51 2020","David shiny","01942510127","question_submission","cow-talk-piano-QA4 Syntax 0.1","question","4 ::: TRUE","D) What will be displayed after the last statement?","label::question::answer::correct"
+"Wed Jul  8 22:51:02 2020","David shiny","01942510127","question_submission","rabbit-bite-scarf-QA1 Syntax 0.1","question","`slice_plot` ::: FALSE","Check all the names that refer to functions.","label::question::answer::correct"
+"Wed Jul  8 22:51:02 2020","David shiny","01942510127","question_submission","rabbit-bite-scarf-QA1 Syntax 0.1","question","`tanh` ::: FALSE","Check all the names that refer to functions.","label::question::answer::correct"
+"Wed Jul  8 22:51:02 2020","David shiny","01942510127","question_submission","rabbit-bite-scarf-QA1 Syntax 0.1","question","`c` ::: FALSE","Check all the names that refer to functions.","label::question::answer::correct"
+"Wed Jul  8 22:51:26 2020","David shiny","01942510127","exercise_submitted","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1; to = 10; by = 2)","NA","label::id::code::restore"
+"Wed Jul  8 22:51:27 2020","David shiny","01942510127","exercise_result","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1; to = 10; by = 2)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:51:51 2020","David shiny","01942510127","exercise_submitted","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","NA","label::id::code::restore"
+"Wed Jul  8 22:51:52 2020","David shiny","01942510127","exercise_result","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:51:55 2020","David shiny","01942510127","exercise_submitted","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","NA","label::id::code::restore"
+"Wed Jul  8 22:51:56 2020","David shiny","01942510127","exercise_result","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","TRUE ::: :)","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:51:56 2020","David shiny","01942510127","exercise_result","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:51:56 2020","David shiny","01942510127","exercise_result","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:51:56 2020","David shiny","01942510127","exercise_result","deer-dive-car-E1 Syntax 0.1","code","seq(from = 1, to = 10, by = 2)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:12 2020","David shiny","01942510127","exercise_submitted","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperatur+volume","NA","label::id::code::restore"
+"Wed Jul  8 22:53:13 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperatur+volume","TRUE ::: The name `pressure` should be on the left side of the tilde.  Let's try it again.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:13 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperatur+volume","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:13 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperatur+volume","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:13 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperatur+volume","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:26 2020","David shiny","01942510127","exercise_submitted","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperature+volume","NA","label::id::code::restore"
+"Wed Jul  8 22:53:27 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperature+volume","TRUE ::: The name `pressure` should be on the left side of the tilde.  Try it again. I have a good feeling about this.","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:27 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperature+volume","TRUE ::: FALSE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:27 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperature+volume","TRUE ::: error","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:27 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressue~temperature+volume","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:36 2020","David shiny","01942510127","exercise_submitted","giraffe-dream-coat-E1 Syntax 0.1","code","pressure~temperature+volume","NA","label::id::code::restore"
+"Wed Jul  8 22:53:36 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure~temperature+volume","TRUE ::: Out of this world!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:36 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure~temperature+volume","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:36 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure~temperature+volume","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 22:53:36 2020","David shiny","01942510127","exercise_result","giraffe-dream-coat-E1 Syntax 0.1","code","pressure~temperature+volume","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Wed Jul  8 23:03:45 2020","David shiny","01942510127","session_stop","NA Syntax 0.1","handled field",NA,"NA",NA
+"Thu Jul  9 15:41:23 2020","David shiny","2222622717","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Thu Jul  9 19:06:16 2020","David shiny","8133437538","section_skipped","NA MMAC-Ch-1 0.1","section","section-mmac-chapter-1","NA","sectionId"
+"Thu Jul  9 19:09:56 2020","David shiny","8133437538","exercise_submitted","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) / ((9* pi)^2 + 27*x) ~ x
+)","NA","label::id::code::restore"
+"Thu Jul  9 19:09:57 2020","David shiny","8133437538","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) / ((9* pi)^2 + 27*x) ~ x
+)","TRUE ::: Spectacular job!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:09:57 2020","David shiny","8133437538","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) / ((9* pi)^2 + 27*x) ~ x
+)","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:09:57 2020","David shiny","8133437538","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) / ((9* pi)^2 + 27*x) ~ x
+)","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:09:57 2020","David shiny","8133437538","exercise_result","doe-stand-magnet-E1 MMAC-Ch-1 0.1","code","f <- makeFun(
+  pi*(9.852*x^3 - 10.375*x) / ((9* pi)^2 + 27*x) ~ x
+)","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:12:20 2020","David shiny","8133437538","question_submission","owl-choose-roof-QA1 MMAC-Ch-1 0.1","question","The innermost closing parenthesis completes the `c()` expression, the middle one completes the `domain()` expression, and the outermost completes the `slice_plot()` function. ::: TRUE","Once you get the above command right, you&#39;ll notice that it ends with three parentheses in a row: <code>)))</code>. You would never see such a thing in English. Why does it make sense in the R expression?","label::question::answer::correct"
+"Thu Jul  9 19:13:05 2020","David shiny","8133437538","exercise_submitted","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","NA","label::id::code::restore"
+"Thu Jul  9 19:13:06 2020","David shiny","8133437538","exercise_result","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:13:11 2020","David shiny","8133437538","exercise_submitted","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","NA","label::id::code::restore"
+"Thu Jul  9 19:13:12 2020","David shiny","8133437538","exercise_result","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","TRUE ::: Beautiful!","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:13:12 2020","David shiny","8133437538","exercise_result","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","TRUE ::: TRUE","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:13:12 2020","David shiny","8133437538","exercise_result","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","TRUE ::: success","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:13:12 2020","David shiny","8133437538","exercise_result","owl-choose-roof-E1 MMAC-Ch-1 0.1","code","slice_plot(-3.546*x-9.128~x,domain(x=c(-15,15)))","TRUE ::: append","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:20:23 2020","David shiny","8133437538","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(x, y) ~ x + y` ::: FALSE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Thu Jul  9 19:20:41 2020","David shiny","8133437538","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","reset","Which of these is the right tilde expression to use in making the plot?","label::question::reset"
+"Thu Jul  9 19:20:44 2020","David shiny","8133437538","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(offset, gain) ~ offset + gain` ::: TRUE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Thu Jul  9 19:20:58 2020","David shiny","8133437538","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(offset = c(-5, 5), gain = c(0, 5))` ::: TRUE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Thu Jul  9 19:22:14 2020","David shiny","8133437538","exercise_submitted","giraffe-sing-magnet-E1 MMAC-Ch-1 0.1","code","contour_plot(g17(offset,gain)~offset+gain,domain(offset=c(-5,5),
+gain=c(0,5)))","NA","label::id::code::restore"
+"Thu Jul  9 19:22:16 2020","David shiny","8133437538","exercise_result","giraffe-sing-magnet-E1 MMAC-Ch-1 0.1","code","contour_plot(g17(offset,gain)~offset+gain,domain(offset=c(-5,5),
+gain=c(0,5)))","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 19:22:28 2020","David shiny","8133437538","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A mountain next to an abyss. ::: TRUE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Thu Jul  9 19:24:09 2020","David shiny","8133437538","session_start","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Thu Jul  9 19:24:16 2020","David shiny","2838391462","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Thu Jul  9 19:39:38 2020","David shiny","2838391462","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Thu Jul  9 14:49:51 2020","Betty kaplan","6483585399","section_skipped","NA MMAC-Ch-1 0.1","section","section-mmac-chapter-2","NA","sectionId"
+"Thu Jul  9 14:50:14 2020","Betty kaplan","6483585399","exercise_submitted","R-syntax-sandbox1 MMAC-Ch-1 0.1","code","US_mobility %>%
+  filter(grepl(""CA$"",  state)) %>%
+  gf_line(retail ~ date) %>%
+  gf_labs(title = ""California mobility"")","NA","label::id::code::restore"
+"Thu Jul  9 14:50:27 2020","Betty kaplan","6483585399","exercise_result","R-syntax-sandbox1 MMAC-Ch-1 0.1","code","US_mobility %>%
+  filter(grepl(""CA$"",  state)) %>%
+  gf_line(retail ~ date) %>%
+  gf_labs(title = ""California mobility"")","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Thu Jul  9 14:50:36 2020","Betty kaplan","6483585399","section_skipped","NA MMAC-Ch-1 0.1","section","section-data-basics","NA","sectionId"
+"Thu Jul  9 14:50:45 2020","Betty kaplan","6483585399","question_submission","R-syntax-QA1 MMAC-Ch-1 0.1","question","4 ::: FALSE","How many variables are in <code>HealthExpenditure</code>?","label::question::answer::correct"
+"Thu Jul  9 14:50:51 2020","Betty kaplan","6483585399","question_submission","R-syntax-QA1 MMAC-Ch-1 0.1","question","reset","How many variables are in <code>HealthExpenditure</code>?","label::question::reset"
+"Thu Jul  9 14:50:54 2020","Betty kaplan","6483585399","question_submission","R-syntax-QA1 MMAC-Ch-1 0.1","question","2 ::: TRUE","How many variables are in <code>HealthExpenditure</code>?","label::question::answer::correct"
+"Fri Jul 10 01:24:17 2020","David shiny","65108776842","exercise_submitted","doe-bid-vase-sandbox1 MMAC-Ch-1 0.1","code","interactive_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3))
+  )","NA","label::id::code::restore"
+"Fri Jul 10 01:24:18 2020","David shiny","65108776842","exercise_result","doe-bid-vase-sandbox1 MMAC-Ch-1 0.1","code","interactive_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3))
+  )","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Fri Jul 10 01:24:50 2020","David shiny","65108776842","exercise_submitted","doe-bid-vase-sandbox2 MMAC-Ch-1 0.1","code","contour_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3))
+  )","NA","label::id::code::restore"
+"Fri Jul 10 01:24:52 2020","David shiny","65108776842","exercise_result","doe-bid-vase-sandbox2 MMAC-Ch-1 0.1","code","contour_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3))
+  )","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Fri Jul 10 01:25:05 2020","David shiny","65108776842","exercise_submitted","doe-bid-vase-sandbox2 MMAC-Ch-1 0.1","code","contour_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3))
+  )
+?contour_plot","NA","label::id::code::restore"
+"Fri Jul 10 01:25:07 2020","David shiny","65108776842","exercise_result","doe-bid-vase-sandbox2 MMAC-Ch-1 0.1","code","contour_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3))
+  )
+?contour_plot","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Fri Jul 10 01:25:49 2020","David shiny","65108776842","exercise_submitted","doe-bid-vase-sandbox2 MMAC-Ch-1 0.1","code","contour_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3)),
+  contours_at=c(0,2,4,6,8,10)
+  )","NA","label::id::code::restore"
+"Fri Jul 10 01:25:52 2020","David shiny","65108776842","exercise_result","doe-bid-vase-sandbox2 MMAC-Ch-1 0.1","code","contour_plot(
+  x^2 - y ~ x + y,
+  domain(x = c(-3, 3 ), y = c(-3, 3)),
+  contours_at=c(0,2,4,6,8,10)
+  )","FALSE :::","label::id::code::output::timeout_exceeded::time_elapsed::error_message::checked::feedback"
+"Fri Jul 10 01:37:54 2020","David shiny","65108776842","section_skipped","NA MMAC-Ch-1 0.1","section","section-zeros-in-contour-plots","NA","sectionId"
+"Fri Jul 10 01:38:06 2020","David shiny","65108776842","section_skipped","NA MMAC-Ch-1 0.1","section","section-exponentials-etc.","NA","sectionId"
+"Fri Jul 10 01:40:42 2020","David shiny","65108776842","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Fri Jul 10 23:26:13 2020","Betty shiny","6297794001","section_skipped","NA MMAC-Ch-1 0.1","section","section-mmac-chapter-1","NA","sectionId"
+"Fri Jul 10 23:26:31 2020","Betty shiny","6297794001","question_submission","owl-choose-roof-QA1 MMAC-Ch-1 0.1","question","The innermost closing parenthesis completes the `c()` expression, the middle one completes the `domain()` expression, and the outermost completes the `slice_plot()` function. ::: TRUE","Once you get the above command right, you&#39;ll notice that it ends with three parentheses in a row: <code>)))</code>. You would never see such a thing in English. Why does it make sense in the R expression?","label::question::answer::correct"
+"Fri Jul 10 23:27:16 2020","Betty shiny","6297794001","question_submission","owl-choose-roof-QA1 MMAC-Ch-1 0.1","question","It doesn't make any sense at all. ::: FALSE","Once you get the above command right, you&#39;ll notice that it ends with three parentheses in a row: <code>)))</code>. You would never see such a thing in English. Why does it make sense in the R expression?","label::question::answer::correct"
+"Fri Jul 10 23:27:18 2020","Betty shiny","6297794001","question_submission","owl-choose-roof-QA1 MMAC-Ch-1 0.1","question","reset","Once you get the above command right, you&#39;ll notice that it ends with three parentheses in a row: <code>)))</code>. You would never see such a thing in English. Why does it make sense in the R expression?","label::question::reset"
+"Fri Jul 10 23:27:23 2020","Betty shiny","6297794001","question_submission","owl-choose-roof-QA1 MMAC-Ch-1 0.1","question","The innermost closing parenthesis completes the `c()` expression, the middle one completes the `domain()` expression, and the outermost completes the `slice_plot()` function. ::: TRUE","Once you get the above command right, you&#39;ll notice that it ends with three parentheses in a row: <code>)))</code>. You would never see such a thing in English. Why does it make sense in the R expression?","label::question::answer::correct"
+"Fri Jul 10 23:27:46 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(gain, offset) ~ gain + offset` ::: FALSE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:27:51 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","reset","Which of these is the right tilde expression to use in making the plot?","label::question::reset"
+"Fri Jul 10 23:27:54 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(offset, gain) ~ offset + gain` ::: TRUE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:27:59 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(offset = c(0, 5), gain = c(-5, 5))` ::: FALSE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Fri Jul 10 23:28:13 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(offset, gain)` ::: FALSE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:28:15 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","reset","Which of these is the right tilde expression to use in making the plot?","label::question::reset"
+"Fri Jul 10 23:28:18 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(x, y) ~ x + y` ::: FALSE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:28:24 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","reset","Which of these is the right tilde expression to use in making the plot?","label::question::reset"
+"Fri Jul 10 23:28:26 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(gain, offset) ~ gain + offset` ::: FALSE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:28:35 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(x = c(-5, 5), y = c(0, 5))` ::: FALSE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Fri Jul 10 23:28:41 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A mountain next to an abyss. ::: TRUE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:28:50 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A hill next to a quarry pit. ::: FALSE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:28:53 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","reset","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::reset"
+"Fri Jul 10 23:28:56 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A sloping meadow. ::: FALSE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:28:58 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","reset","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::reset"
+"Fri Jul 10 23:29:01 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","Two mountains separated by a valley. ::: FALSE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:29:03 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","reset","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::reset"
+"Fri Jul 10 23:29:23 2020","Betty shiny","6297794001","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A mountain next to an abyss. ::: TRUE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:29:36 2020","Betty shiny","6297794001","session_start","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Fri Jul 10 23:29:49 2020","Betty shiny","6297794001","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Fri Jul 10 23:30:09 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(offset, gain) ~ offset + gain` ::: TRUE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:30:14 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(x = c(-5, 5), y = c(0, 5))` ::: FALSE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Fri Jul 10 23:30:17 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","reset","Which of these is the correct domain (as specified in  the problem statement)?","label::question::reset"
+"Fri Jul 10 23:30:23 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(offset = c(-5, 5), gain = c(0, 5))` ::: TRUE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Fri Jul 10 23:30:34 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A hill next to a quarry pit. ::: FALSE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:30:40 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","reset","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::reset"
+"Fri Jul 10 23:30:45 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A mountain next to an abyss. ::: TRUE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:34:23 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","reset","Which of these is the correct domain (as specified in  the problem statement)?","label::question::reset"
+"Fri Jul 10 23:34:28 2020","David shiny","5843902451","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(offset = c(-5, 5), gain = c(0, 5))` ::: TRUE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Fri Jul 10 23:34:55 2020","Unauthenticated Anne shiny","6001244976","session_start","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Fri Jul 10 23:35:06 2020","Anne shiny","71815101662","question_submission","giraffe-sing-magnet-QA1 MMAC-Ch-1 0.1","question","`g17(offset, gain) ~ offset + gain` ::: TRUE","Which of these is the right tilde expression to use in making the plot?","label::question::answer::correct"
+"Fri Jul 10 23:35:07 2020","Anne shiny","71815101662","session_stop","NA MMAC-Ch-1 0.1","handled field",NA,"NA",NA
+"Fri Jul 10 23:35:20 2020","Anne shiny","71815101662","question_submission","giraffe-sing-magnet-QA2 MMAC-Ch-1 0.1","question","`domain(offset = c(-5, 5), gain = c(0, 5))` ::: TRUE","Which of these is the correct domain (as specified in  the problem statement)?","label::question::answer::correct"
+"Fri Jul 10 23:35:28 2020","Anne shiny","71815101662","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A sloping meadow. ::: FALSE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
+"Fri Jul 10 23:35:30 2020","Anne shiny","71815101662","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","reset","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::reset"
+"Fri Jul 10 23:35:32 2020","Anne shiny","71815101662","question_submission","giraffe-sing-magnet-QA3 MMAC-Ch-1 0.1","question","A hill next to a quarry pit. ::: FALSE","Interpreting the contour plot as if it were a topographical map of a geographical area, and with the units of the output being 1000s of feet and the units of each variable being miles, which of these is the best description of the landscape?","label::question::answer::correct"
