@@ -41,12 +41,14 @@ to_standard_format <- function(raw) {
   keepers <- is.na(time)
   time[keepers] <- time2[keepers]
   raw$time <- time
-  raw %>%
+  Tmp <- raw %>%
     tidyr::separate(who, into = c("login", "system_id"),
                     sep = " ") %>%
     tidyr::separate(item, into = c("item", "type", "document", "version"),
                     sep = " ") %>%
     filter((type != "trash"))
+
+  Tmp
 }
 
 example_submissions1 <- function() {
