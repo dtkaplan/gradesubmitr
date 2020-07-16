@@ -4,6 +4,7 @@ library(shiny)
 library(gradesubmitr)
 library(dplyr)
 library(ggformula)
+library(readr)
 
 # Get a list of all the items in a given document
 document_item_names <- function(Events, doc_choice) {
