@@ -51,7 +51,7 @@ ui <- fluidPage(
 
 )
 
-# Define server logic required to draw a histogram
+# Define server logic
 server <- function(input, output, session) {
   current_document <- reactiveVal()
   observe({
@@ -66,7 +66,7 @@ server <- function(input, output, session) {
     req(input$Raw_events)
     if (!is.null(input$Raw_events)) {
       Events <-
-        get_submissions(csv_name =
+        get_submissions_google_forms(csv_name =
                           input$Raw_events$datapath)
     } else { # For debugging
       Events <- readRDS("Events.rds")
@@ -108,8 +108,8 @@ server <- function(input, output, session) {
     cat("Item has", nrow(Tmp2), "rows\n")
       # filter(what == "question", !is.na(is_correct)) %>%
     if (isTruthy(input$dates)) {
-      Tmp3 <- Tmp2 %>%  filter(input$dates[1] <= time,
-                               input$dates[2] >= time)
+      Tmp3 <- Tmp2 %>%  filter(input$dates[1] <= event_time,
+                               input$dates[2] >= event_time)
       cat("Items in date rage are", nrow(Tmp3), "rows\n")
     } else {
       Tmp3 <- Tmp2

@@ -21,7 +21,7 @@ summarize_MC_item <- function(events, item_name, fiducial_date = 0.25) {
   # For each user, figure out the times of their answers
   Item_times <- events %>%
     mutate(relative_time = as.numeric(
-      difftime(time, fiducial_date, units = "hours"))) %>%
+      difftime(event_time, fiducial_date, units = "hours"))) %>%
     group_by(login, item) %>%
     summarize(first_time = min(relative_time),
            last_time = max(relative_time),
@@ -68,20 +68,27 @@ summarize_essay_item <- function(Item_events, item_name, fiducial_date = 0.25) {
   # For each user, pick out the latest submission
   Student_events <- Item_events %>%
     group_by(login) %>%
-    filter(time == max(time)) %>% # Just the last essay
+    filter(event_time == max(event_time)) %>% # Just the last essay
     mutate(relative_time = as.numeric(
-      difftime(time, fiducial_date, units = "hours")),
+      difftime(event_time, fiducial_date, units = "hours")),
       essay_length = nchar(answer)
     ) %>%
     select(login, item, document, answer, essay_length, relative_time)
 
-  Essay_lengths <- mosaic::ntiles(Student_events$essay_length,
-                                  n=ceiling(pmin(10, sqrt(nrow(Student_events)))),
-                                  format = "right") %>%
-    table() %>%
-    tibble::as_tibble() %>%
-    rename(., Essay_length = ., n_essays = n) %>%
-    mutate(Essay_length = paste("<=", Essay_length, "chars"))
+  if (length(unique(Student_events$essay_length)) > 10 ) {
+    # Used  binned counts to compare relative sizes
+    Essay_lengths <- mosaic::ntiles(Student_events$essay_length,
+                                    n=ceiling(pmin(10, sqrt(nrow(Student_events)))),
+                                    format = "right") %>%
+      table() %>%
+      tibble::as_tibble() %>%
+      rename(., Essay_length = ., n_essays = n) %>%
+      mutate(Essay_length = paste("<=", Essay_length, "chars"))
+  } else {
+    # just use the raw counts
+    Essay_lengths <- tibble::tibble(
+      Essay_length = paste(Student_events$essay_lengthk, "chars"))
+  }
 
   list(
     by_student = Student_events,
@@ -102,9 +109,9 @@ summarize_checked_code_item <-
     # For each user, pick out the latest submission
     Student_events <- Item_events %>%
       group_by(login) %>%
-      filter(time == max(time)) %>% # Just the last essay
+      filter(event_time == max(event_time)) %>% # Just the last essay
       mutate(relative_time = as.numeric(
-        difftime(time, fiducial_date, units = "hours"))
+        difftime(event_time, fiducial_date, units = "hours"))
       ) %>%
       select(login, item, document, correct, answer, feedback, relative_time) %>%
       rename(code = answer)

@@ -2,6 +2,7 @@
 
 export(by_session)
 export(get_submissions)
+export(get_submissions_google_forms)
 export(plot_user_sessions)
 export(score_document)
 export(summarize_MC_item)
