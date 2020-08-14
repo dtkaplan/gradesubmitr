@@ -162,8 +162,8 @@ server <- function(input, output, session) {
 
   output$when_plot <- renderPlot({
     From_doc <- get_document_events() %>%
-      mutate(time = as.POSIXct(time))
-    gf_density(~ time, data = From_doc)
+      mutate(event_time = as.POSIXct(event_time))
+    gf_density(~ event_time, data = From_doc)
   })
   # Change the dates when the document changes
   observe({
