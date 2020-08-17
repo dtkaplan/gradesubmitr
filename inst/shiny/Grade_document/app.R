@@ -87,7 +87,9 @@ server <- function(input, output, session) {
   get_document_events <- reactive({
     Events <- get_raw_events()
     if (isTruthy(current_document()))
-      Ret <- Events %>% filter(document == current_document())
+      Ret <- Events %>%
+        filter(document == current_document()) %>%
+        mutate(login = tolower(login)) # Avoid capitalization inconsistencies
     # update the user interface
     items <- unique(Ret$item)
     current_item(items[1]) # assignment
@@ -103,14 +105,13 @@ server <- function(input, output, session) {
     req(current_item())
     Tmp1 <- get_document_events()
 
-    cat("Document has", nrow(Tmp1), "rows\n")
+
     Tmp2 <- Tmp1 %>% filter(item == current_item())
-    cat("Item has", nrow(Tmp2), "rows\n")
+
       # filter(what == "question", !is.na(is_correct)) %>%
     if (isTruthy(input$dates)) {
       Tmp3 <- Tmp2 %>%  filter(input$dates[1] <= event_time,
                                input$dates[2] >= event_time)
-      cat("Items in date rage are", nrow(Tmp3), "rows\n")
     } else {
       Tmp3 <- Tmp2
     }
@@ -121,10 +122,10 @@ server <- function(input, output, session) {
     req(current_document()) # So it will change when the document changes
 
     req(current_item()) # Which item is selected within the document
-    cat("Summarizing item", current_item(), "\n")
+
     Item_events <- get_item_events()
     item_type <- Item_events$type[1] # should be only one type, anyways
-    cat("Item type is", item_type, "\n" )
+
     if (is.na(item_type)) {
       NULL
     } else if (item_type == "multiple-choice") {
@@ -149,7 +150,8 @@ server <- function(input, output, session) {
     }
   })
   output$scores <- renderTable({
-    document_scores()
+    mutate_if(document_scores(), is.numeric,
+              function(x) format(x,  nsmall =  3))
   })
 
   document_scores <- reactive({
