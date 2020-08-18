@@ -18,8 +18,10 @@ get_submissions_google_forms <- function(csv_name) {
       silent = TRUE
     )
     # If no events were in the hash, create a non-empty data frame
-    if (inherits(df, "try-error") || nrow(df)  == 0)
+    if (inherits(df, "try-error") || nrow(df)  == 0) {
       df <- tibble::tibble(time_submitted = row$time_submitted)
+      cat(k, "...")
+    }
 
     # Populate the data frame with the submission-form data
     df$time_submitted <- row$time_submitted

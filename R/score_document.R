@@ -6,11 +6,14 @@ score_document <- function(Events) {
   Score <- Events %>%
     group_by(login, item) %>%
     mutate(earliest = event_time == min(event_time)) %>%
-    summarize(score = as.numeric(earliest & (correct | type == "essay")) + n()/1000)
+    summarize(score = as.numeric(earliest && (correct || type == "essay")) + n()/1000)
   Total <- Score %>%
     group_by(login) %>%
     summarize(TOTAL = sum(score, na.rm = TRUE))
   Result <- Score %>%
+    group_by(login, item) %>%
+    filter(score == max(score)) %>%
+    ungroup() %>%
     pivot_wider(id_cols = login, values_from = score, names_from = item)
   Result <- Result %>% left_join(Total)
 }

@@ -45,10 +45,11 @@ ui <- fluidPage(
       tabPanel("Submissions",
                # a plot of when submissions were made
                # Show a plot of the generated distribution)
-               plotOutput("when_plot"))
+               plotOutput("when_plot")),
+      tabPanel("Time line",
+               selectizeInput("student", "Student ID", 1:3, multiple=TRUE),
+               plotOutput("timeline"))
     )
-
-
 )
 
 # Define server logic
@@ -155,7 +156,8 @@ server <- function(input, output, session) {
   })
 
   document_scores <- reactive({
-    score_document(get_document_events())
+    Tmp <- get_document_events()
+    score_document(Tmp)
   })
 
   output$prompt <- renderText({
@@ -165,7 +167,12 @@ server <- function(input, output, session) {
   output$when_plot <- renderPlot({
     From_doc <- get_document_events() %>%
       mutate(event_time = as.POSIXct(event_time))
-    gf_density(~ event_time, data = From_doc)
+    if (isTruthy(input$dates)) {
+      From_doc <- From_doc %>%
+        filter(input$dates[1] <= event_time,
+               input$dates[2] >= event_time)
+    }
+    gf_histogram(~ event_time, data = From_doc, bins = 200)
   })
   # Change the dates when the document changes
   observe({
@@ -186,9 +193,39 @@ server <- function(input, output, session) {
       paste0("scores-", current_document(),"-", Sys.Date(), ".csv")
     },
     content = function(file) {
-      write.csv(document_scores(), file, row.names = FALSE)
+      For_output <- document_scores() %>%
+        tidyr::separate(login, into = c("login", "passcode"),
+                        sep = ":")
+      write.csv(For_output, file, row.names = FALSE)
     }
   )
+
+  #update the list of students for the timeline
+  observe({
+    Events <- get_document_events()
+    students <- sort(unique(gsub(":.*$", "", Events$login)))
+    updateSelectInput(session, "student", choices  = students,
+                      selected = students[1])
+  })
+
+  output$timeline <- renderPlot({
+
+    students <- paste0(input$student, collapse="|")
+    Events <- get_document_events() %>%
+      filter(grepl(students, login)) %>%
+      mutate(login  = gsub(":.*$", "", login),
+             event_time = as.POSIXct(event_time))
+    if (isTruthy(input$dates)) {
+      Events <- Events %>%
+        filter(input$dates[1] <= event_time,
+               input$dates[2] >= event_time)
+    }
+    gf_point(login  ~  event_time, data = Events,
+             color = ~ (correct  | type == "essay") )  %>%
+      gf_text(label = ~ item, angle=90) %>%
+      gf_refine(scale_x_datetime(date_labels="%m/%d %R"))
+
+  })
 }
 
 # Run the application
