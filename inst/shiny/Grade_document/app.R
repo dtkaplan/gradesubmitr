@@ -5,6 +5,7 @@ library(gradesubmitr)
 library(dplyr)
 library(ggformula)
 library(readr)
+library(lubridate)
 
 # Get a list of all the items in a given document
 document_item_names <- function(Events, doc_choice) {
@@ -32,6 +33,9 @@ ui <- fluidPage(
 
 
     tabsetPanel(
+      tabPanel("Score document",
+               downloadButton("downloadScores", "Download document scores"),
+               tableOutput("scores")),
       tabPanel("One item",
                selectInput("item_name", "Question ID",
                            choices = head(letters, 3)),
@@ -39,9 +43,6 @@ ui <- fluidPage(
                htmlOutput("prompt"),
                tableOutput("overall"),
                tableOutput("bystudent")),
-      tabPanel("Score document",
-               downloadButton("downloadScores", "Download document scores"),
-               tableOutput("scores")),
       tabPanel("Submissions",
                # a plot of when submissions were made
                # Show a plot of the generated distribution)
@@ -69,8 +70,6 @@ server <- function(input, output, session) {
       Events <-
         get_submissions_google_forms(csv_name =
                           input$Raw_events$datapath)
-    } else { # For debugging
-      Events <- readRDS("Events.rds")
     }
     tmp <- unique(Events$document)
     current_document(tmp[1]) # assign a value
@@ -78,8 +77,8 @@ server <- function(input, output, session) {
                   choices = unique(Events$document),
                   selected = isolate(current_document()))
     updateDateRangeInput(session, "dates",
-                         start = as_date(min(Events$time)) - 1,
-                         end = as_date(max(Events$time)) + 1)
+                         start = as_date(min(Events$event_time)) - 1,
+                         end = as_date(max(Events$event_time)) + 1)
 
 
     return(Events)
@@ -87,18 +86,20 @@ server <- function(input, output, session) {
 
   get_document_events <- reactive({
     Events <- get_raw_events()
-    if (isTruthy(current_document()))
+    if (isTruthy(current_document())) {
       Ret <- Events %>%
         filter(document == current_document()) %>%
         mutate(login = tolower(login)) # Avoid capitalization inconsistencies
-    # update the user interface
-    items <- unique(Ret$item)
-    current_item(items[1]) # assignment
-    updateSelectInput(session, "item_name",
-                      choices = items,
-                      selected = isolate(current_item()))
+      # update the user interface
+      items <- unique(Ret$item)
+      current_item(items[1]) # assignment
+      updateSelectInput(session, "item_name",
+                        choices = items,
+                        selected = isolate(current_item()))
 
-    Ret
+      return(Ret)
+    }
+    NULL
   })
 
   get_item_events <- reactive({
@@ -178,13 +179,11 @@ server <- function(input, output, session) {
   observe({
     get_raw_events()
     req(current_document())
-    cat("Updating date range to",
-        capture.output(min(get_document_events()$time)),
-        capture.output(max(get_document_events()$time)),
-        "\n")
+    Tmp <- get_document_events()
+
     updateDateRangeInput(session, "dates",
-                         start = as_date(min(get_document_events()$time)) - 1,
-                         end = as_date(max(get_document_events()$time)) + 1)
+                         start = as_date(min(Tmp$event_time)) - 1,
+                         end = as_date(max(Tmp$event_time)) + 1)
 
   })
 

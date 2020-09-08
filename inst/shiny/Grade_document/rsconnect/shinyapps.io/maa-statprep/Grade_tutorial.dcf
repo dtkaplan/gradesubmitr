@@ -5,8 +5,8 @@ account: maa-statprep
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2577295
-bundleId: 3526070
+bundleId: 3531658
 url: https://maa-statprep.shinyapps.io/Grade_tutorial/
-when: 1597682455.46059
+when: 1597790221.97355
 asMultiple: FALSE
 asStatic: FALSE

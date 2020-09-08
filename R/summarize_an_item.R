@@ -16,7 +16,7 @@ summarize_MC_item <- function(events, item_name, fiducial_date = 0.25) {
   if(fiducial_date < 0 || fiducial_date > 1)
             stop("`fiducial_date` must be between zero and one. You have",
                   "`fiducial_date` = ", fiducial_date)
-  fiducial_date <- quantile(events$time, fiducial_date)
+  fiducial_date <- quantile(events$event_time, fiducial_date)
   prompt <- events$prompt[1]
   # For each user, figure out the times of their answers
   Item_times <- events %>%
@@ -62,7 +62,7 @@ summarize_essay_item <- function(Item_events, item_name, fiducial_date = 0.25) {
     stop("`fiducial_date` must be between zero and one. You have",
          "`fiducial_date` = ", fiducial_date)
 
-  fiducial_date <- quantile(Item_events$time, fiducial_date)
+  fiducial_date <- quantile(Item_events$event_time, fiducial_date)
   prompt <- Item_events$prompt[1]
   Res <- list()
   # For each user, pick out the latest submission
@@ -104,7 +104,7 @@ summarize_checked_code_item <-
       stop("`fiducial_date` must be between zero and one. You have",
            "`fiducial_date` = ", fiducial_date)
 
-    fiducial_date <- quantile(Item_events$time, fiducial_date)
+    fiducial_date <- quantile(Item_events$event_time, fiducial_date)
 
     # For each user, pick out the latest submission
     Student_events <- Item_events %>%

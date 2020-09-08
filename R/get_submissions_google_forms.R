@@ -20,13 +20,19 @@ get_submissions_google_forms <- function(csv_name) {
     # If no events were in the hash, create a non-empty data frame
     if (inherits(df, "try-error") || nrow(df)  == 0) {
       df <- tibble::tibble(time_submitted = row$time_submitted)
-      cat(k, "...")
+      #cat(k, "...")
     }
 
     # Populate the data frame with the submission-form data
     df$time_submitted <- row$time_submitted
     df$id_submitted <- row$id_submitted
     df$auth_submitted <- row$auth_submitted
+    # handle debris from submitr
+    if ("user_id" %in% names(df))
+      df["user_id"] <- NULL
+    if ("authentication" %in% names(df))
+      df["authentication"] <- NULL
+
     Results[[k]] <- df
   }
 
@@ -43,8 +49,10 @@ get_submissions_google_forms <- function(csv_name) {
 
 
 
-  names(Events) <- c("event_time",  "who", "session_id", "type", "item",
-                     "prompt", "answer", "correct", "feedback", "time_submitted",
+  names(Events) <- c(
+                     "event_time",  "who", "session_id", "type", "item",
+                     "prompt", "answer", "correct", "feedback",
+                     "time_submitted",
                      "id_submitted",  "auth_submitted")
 
 
