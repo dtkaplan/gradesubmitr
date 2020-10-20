@@ -39,15 +39,19 @@ get_submissions_google_forms <- function(csv_name) {
   bind_rows(Results) -> Events
 
   convert_to_POSIX <- function(time_str) {
-    time = strptime(time_str, format = "%a %b %d %H:%M:%S %p %Y %z")
-    time2 =  strptime(time_str, format = "%a %b %d %H:%M:%S %Y %z")
-    keepers <- is.na(time)
-    time[keepers] <- time2[keepers]
-
-    time
+    # time = strptime(time_str, format = "%a %b %d %H:%M:%S %p %Y %z")
+    # time2 =  strptime(time_str, format = "%a %b %d %H:%M:%S %Y %z")
+    # keepers <- is.na(time)
+    # time[keepers] <- time2[keepers]
+    #
+    # time
+    res <- paste(
+      substr(time_str, 5,  10),
+      substr(time_str, 24, 27),
+      substr(time_str, 12, 22)
+    )
+    lubridate::mdy_hms(res)
   }
-
-
 
   names(Events) <- c(
                      "event_time",  "who", "session_id", "type", "item",
